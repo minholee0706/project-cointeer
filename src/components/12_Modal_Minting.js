@@ -75,7 +75,6 @@ const Modal_Minting =({donateId})=>{
           // 민팅 함수
           const minting = async(e) =>{
           e.preventDefault();
-
           const ContractAddress = process.env.REACT_APP_MINTTING_CONTRACT_ADDRESS;
           const Contract = await new web3.eth.Contract(Abi2,ContractAddress);
 
@@ -100,8 +99,7 @@ const Modal_Minting =({donateId})=>{
                             <input className="Minting_Upload_Btn1" type = "file" name = "file" onClick={()=>{
                               connectWallet();
                               setPressStart(true);
-                              }} />
-                            
+                              }} />                       
                             <button className="Minting_Upload_Btn2"type = "submit" >Ipfs Upload file</button>
                             <img  src={image} style={{maxWidth:"400px", margin: "10px"}} />
                          </form>

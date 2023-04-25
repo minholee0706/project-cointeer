@@ -2,7 +2,6 @@ import React, {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import './CSS/Profile.css';
 
-
 const Profile =()=> {
     // 카카오에서 받아온 userID 저장, 이후 기부내역 조회로 사용
     const [user_id, setUserId] = useState('');

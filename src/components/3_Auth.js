@@ -4,7 +4,6 @@ import axios from "axios";
 import qs from "qs";
 import {useNavigate} from "react-router-dom"
 
-
 const Auth =()=>{
       // 본인의 REST API KEY 값. 요약 정보에서 확인 가능하다.
       // 테스트
@@ -18,12 +17,9 @@ const Auth =()=>{
       const REDIRECT_URI = "https://coin-teer.netlify.app/oauth/kakao/callback";
       const CLIENT_SECRET = process.env.REACT_APP_KAKAO_CLIENT_SECRET_NET;
 
-  
       // callback으로 받은 인가코드
       const code = new URL(window.location.href).searchParams.get("code");
-  
       const navigate = useNavigate();
-  
       const getToken = async () => {
           const payload = qs.stringify({
               grant_type : "authorization_code",

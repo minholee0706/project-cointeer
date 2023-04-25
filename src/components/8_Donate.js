@@ -380,8 +380,7 @@ const Donate =()=>{
                             </div>    
                             </div>
                             
-                        </div>
-                        
+                        </div>           
                     )
                 })}
             </div>

@@ -1,7 +1,6 @@
 import './CSS/sidebar.css';
 import React from 'react';
 
-
 const Sidebar =()=>{
     //테스트
     // const REST_API_KEY = process.env.REACT_APP_KAKAO_REST_API_KEY_TEST;

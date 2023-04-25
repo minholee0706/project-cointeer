@@ -6,7 +6,6 @@ import Abi from "../Abi";
 import Web3 from "web3";
 import Modal_Minting from "./12_Modal_Minting";
 
-
 const Minting =()=>{
     const [web3, setWeb3] = useState(''); // web 저장
     const [textInput, setTextInput] = useState(''); // nft 이미지 텍스트
@@ -17,7 +16,6 @@ const Minting =()=>{
     const [mykakaoUserId, setUserId] = useState(''); // 카카오 userid 저장 
     const [contractFilter, setContractFilter] = useState([]); // 입력값 필터링데이터 저장
     
-
     // 카카오톡API 에서  UserId를 가져와 setUserId에 저장
     // List up 렌더링 시 true 비교에 사용
     const getProfile = async () => {
@@ -47,7 +45,6 @@ const Minting =()=>{
             getProfile();
           },[]);
 
-
     // 내가 만든 nft 이미지 파일 저장
     const download = () => {
         const $svg = document.querySelector("svg");
@@ -59,8 +56,7 @@ const Minting =()=>{
         const blob = new Blob([data], {type: "image/svg+xml;charset=utf-8"});
       
         // 그려줄 캔버스 생성
-        const $canvas = document.createElement("canvas");
-        
+        const $canvas = document.createElement("canvas"); 
         const {width, height} = $svg.getBoundingClientRect();
          
         // width, height 지정

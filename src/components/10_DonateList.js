@@ -4,7 +4,6 @@ import Abi from "../Abi";
 import Web3 from "web3";
 import './CSS/DonateList.css'
 
-
 const DonateList =()=>{
     
     const [info, setInfo] = useState([]); // getMyInfo 저장
@@ -36,8 +35,6 @@ const DonateList =()=>{
       balance = web3.utils.fromWei(balance,'ether');
       setBalance(balance);
     }; 
-
-
 
     return(
         <div className="DonateList_All">

@@ -43,13 +43,11 @@ const NFTList =()=>{
         const symbol = await tokenContract.methods.symbol().call();
         const totalSupply = await tokenContract.methods.totalSupply().call();
         console.log(totalSupply);
-
         let arr = [];
 
         for(let i=0; i<totalSupply; i++){
             arr.push(i);
         }
-
         for(let tokenId of arr){
 
             const tokenURI= await tokenContract.methods.tokenURI(tokenId).call();
@@ -58,8 +56,7 @@ const NFTList =()=>{
                 return [...prev,{name,symbol , tokenId, tokenURI}];
             })
         }
-        setEthers(true);
-        
+        setEthers(true);    
     } 
     
     return(

@@ -5,8 +5,6 @@ import Web3 from "web3";
 import Modal from 'react-modal';
 import './CSS/Modal.css';
 
-
-
 const Modal_DONATE = ({Donate_title}) => {
     
     const [web3, setWeb3] = useState(''); // useEffect web 저장
@@ -17,11 +15,8 @@ const Modal_DONATE = ({Donate_title}) => {
     const [userText, setUserText] = useState("");
     const [userPhone, setUserPhone] = useState("");
     const [userMoney, setUserMoney] = useState("");
-
     const [str, setStr] = useState(); // 이더 보낸 후 표시 문장
-
     const [ethers, setEthers] = useState(false);
-
     const [kakaoUserId, setUserId] = useState('');   // 카카오 프로필 userid 저장
     const [modal, setModal] = useState(false); // 모달 스위치
 
@@ -79,8 +74,6 @@ const Modal_DONATE = ({Donate_title}) => {
         )
         setEthers(true);
     }
-
-    
 
   return (
     <div id="modal">

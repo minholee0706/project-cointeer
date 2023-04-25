@@ -8,7 +8,6 @@ import BarChartOutlinedIcon from '@mui/icons-material/BarChartOutlined';
 import ImagesearchRollerOutlinedIcon from '@mui/icons-material/ImagesearchRollerOutlined';
 import Button from "@mui/material/Button";
 
-
 const Body=()=>{
     return (
     <div className='Body_All' id="Body_All">

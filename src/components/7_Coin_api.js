@@ -94,14 +94,11 @@ const Coin_Api =()=>{
                             </button>
                             <button className="Coin_Alert_Button" onClick={()=>clearInterval(runAlert)}>
                                 Alert Off
-                            </button>
-                           
-                            
+                            </button>          
                         </div>
                     </div>
             )})
              : null }
-        
         </div>
     );
 };
