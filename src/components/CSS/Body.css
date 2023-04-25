@@ -1,0 +1,212 @@
+/* 바디 전체 */
+.Body_All{
+    width : 100%;
+    
+}
+
+/* 바디 홈 */
+.Body_Home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../IMG/Homeback_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Body_Text_div{
+    width : 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* coinTeer */
+.Body_Text_Name{
+    font-size: 5em;
+    font-weight: 900;
+    color :  black;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+/* cointeer 밑 문장 */
+.Body_Text_word{
+    font-size: 1.5em;
+    color :  black;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+}
+
+/* 바디 홈 밑 서비스 */
+.Body_Service{
+    width : 100%;
+    height: 100vh;
+}
+.Body_Service_Text{
+    width : 100%;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Body_Service_Text_Line1{
+    width : 100%;
+    height: 10vh;
+    font-size: 3em;
+    font-weight: 900;
+    color :  black;
+    display: flex;
+    justify-content: center;
+    align-items :flex-end;
+    padding-left : 30px;
+    padding-right : 30px;
+}
+.Body_Service_Text_Line2{
+    width : 100%;
+    height: 10vh;
+    font-size: 1.5em;
+    color :  gray;
+    display: flex;
+    justify-content: center;
+    align-items :flex-start;
+    padding-left : 30px;
+    padding-right : 30px;
+}
+
+.Body_Service_List_Text1{
+    height: 10vh;
+    color: yellow;
+    font-size: 1.5em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Body_Service_List_Text2{
+    height: 10vh;
+    color: white;
+    font-size: 3.5em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Body_Service_List{
+    width : 100%;
+    height: 50vh;
+    background-color: rgb(8, 129, 160);
+    justify-content: center;
+    align-items: center;
+}
+.Body_Service_List1{
+    width: 150px;
+    height: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    float : left;
+    margin-left : 13%;
+    
+}
+
+.Body_Service_List2{
+    width : 150px;
+    height : 60%;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Body_Service_List3{
+    display: flex;
+    justify-content: center;
+    color : white;
+    font-size: x-large;
+}
+.Body_Service_List4{
+    color : lightgray;
+    width : 200px;
+}
+
+.Body_Service_plus{
+    width : 100%;
+    height: 20vh;
+    background-color:rgb(8, 129, 160);
+}
+
+/* ------------------------------ */
+
+.Body_Project_All{
+    width : 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Body_Project_Box1{ 
+   font-size: 2em;
+   font-weight: 700;
+   color: rgb(247, 172, 33);
+   
+}
+.Body_Project_Box2{
+    width : 60%;
+    height: 80vh;
+    box-sizing: border-box;
+}
+
+
+.Body_Project_Inbox1:hover,.Body_Project_Inbox2:hover,.Body_Project_Inbox3:hover,.Body_Project_Inbox4:hover{
+    transition : 0.4s;
+    transform : scale(0.9);
+    opacity: 0.7;
+}
+.Body_Project_Inbox1:not(:hover),.Body_Project_Inbox2:not(:hover),.Body_Project_Inbox3:not(:hover),.Body_Project_Inbox4:not(:hover){
+    transition: 0.4s ease-out;
+}
+.Body_Project_Inbox1,.Body_Project_Inbox2,.Body_Project_Inbox3,.Body_Project_Inbox4{
+    width : 50%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column; 
+}
+.Body_Project_Inbox1{
+    background-color: rgb(0, 116, 248);
+    float : right;
+    background-image: url(../IMG/Graph_img.png);
+    background-position: right;
+}
+.Body_Project_Inbox2{
+    background-image: url(../IMG/donate_img.jpg);
+    background-size: cover;
+}
+
+.Body_Project_Inbox3{
+    background-image: url(../IMG/NFT_IMG.png);
+    background-size: cover;
+    float : right;
+}
+
+.Body_Project_Inbox4{
+    background-image: url(../IMG/ALERM_IMG.png);
+    background-size: cover;
+}
+
+.Box_inText1{
+    padding-top: 10%;
+    padding-left: 5%;
+    color : white;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.Box_inText2{
+    padding-left: 5%;
+    color : lightslategray;
+    font-size: 1.0em;
+}

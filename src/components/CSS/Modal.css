@@ -1,0 +1,78 @@
+/* 모달 클릭 버튼 */
+.Donate_Card_button{
+  width : 110px;
+  height: 3vh;
+  border: 3px solid rgb(8, 129, 160);
+  border-radius: 10px;
+  background-color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-top:  5px;
+  margin-bottom: 5px;
+}
+
+.Donate_Card_button:hover,.modal_close_Button:hover{
+  background-color: rgb(8, 129, 160);
+  color : white;
+  border: 3px solid white;
+}
+
+/* 모달 디자인 */
+.Donate_modal{
+  width: 500px;
+  height: 450px;
+   /* 최상단 위치 */
+  z-index: 99;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border : 5px solid rgb(8, 129, 160);
+  
+}
+
+/* 정보 */
+.modal_TEXT{
+  padding : 10px;
+  color : red;
+}
+
+.modal_info{
+  padding : 20px;
+}
+
+.modal_close_Button{
+  position : absolute;
+  right: 10px;
+  top: 10px;
+  border : none;
+  font-weight: 900;
+  background-color: white;
+  border : 3px solid rgb(8, 129, 160);
+}
+
+.modal_UserInfo{
+  float:none;
+}
+
+.modal_UserInfo_UserMoney,.modal_UserInfo_UserName,.modal_UserInfo_UserPhone{
+  width : 70%;
+  margin-top: 10px;
+}
+
+.modal_label{
+  font-weight: 700;
+}
+.modal_submitt_Button{
+  border: 3px solid rgb(8, 129, 160);
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 20px;
+}
+.modal_submitt_Button:hover{
+  background-color: rgb(8, 129, 160);
+  color : white;
+  border: 3px solid rgb(8, 129, 160);
+}

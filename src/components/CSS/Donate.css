@@ -1,0 +1,53 @@
+.Donation_All{
+    width: 100%;
+}
+
+.Donation_All_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Donation_Card:hover{
+    background-color: rgb(8, 129, 160);
+    color : white;
+}
+
+.Donation_searchbar,.Donate_url_button{
+    height: 3vh;
+    border: 3px solid rgb(8, 129, 160);
+    border-radius: 10px;
+    background-color: white;
+}
+.Donation_Card{
+    width : 80%;
+    border-bottom: 2px solid black;
+}
+.Donate_title{
+    font-size: 1.2em;
+    font-weight: 700;
+    padding:5px;
+}
+.Donate_target_area,.Donate_address_year{
+    float: left;
+    width: 45%;
+    margin-bottom: 7px;
+    margin-left: 20px;
+}
+.Donate_a{
+    font-weight: 800;
+}
+
+.Donate_url_Link{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.Donate_url_Link:hover{
+    color : white;
+}
+.Donate_url_button:hover{
+    background-color: rgb(8, 129, 160);
+    color : white;
+    border: 3px solid white;
+}

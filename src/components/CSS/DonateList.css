@@ -1,0 +1,52 @@
+.DonateList_All{
+    width : 100%;
+}
+
+.DonateList_getBalance{
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DonateList_Total_Coin,.DonateList_ListButton{
+    width : 200px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    color : rgb(8, 129, 160);
+    background-color: white;
+    border: 3px solid rgb(8, 129, 160);
+    border-radius: 10px;
+}
+.DonateList_Total_Coin:hover,.DonateList_ListButton:hover{
+    color : white;
+    background-color: rgb(8, 129, 160);
+}
+.DonateList_Balance{
+    color : rgb(255, 145, 0);
+}
+
+.DonateList_Donate_UsersList{
+    width : 100%;
+    height: 20vh;
+    margin : 50px;    
+    
+}
+.DonateList_Card{
+    width: 350px;
+    padding: 20px;
+    border: 2px solid rgb(255, 145, 0);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    float : left;
+}
+.DonateList_title{
+    font-size: 1.1em;
+    font-weight: 800;
+    margin-bottom: 20px;
+}

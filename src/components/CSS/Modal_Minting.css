@@ -1,0 +1,27 @@
+.Minting_Img_Upload_div{
+    
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Minting_Upload_Btn1{
+    width : 200px;
+}
+
+.Minting_Upload_Btn1,.Minting_Upload_Btn2{
+    height: 3vh;
+    border: 3px solid rgb(8, 129, 160);
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-top:  5px;
+    margin-bottom: 5px;
+}
+.Minting_Upload_Btn1:hover,.Minting_Upload_Btn2:hover{
+    background-color: rgb(8, 129, 160);
+    color : white;
+}

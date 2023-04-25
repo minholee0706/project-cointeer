@@ -1,0 +1,79 @@
+.Minting_AllDiv{
+    width: 100%;
+}
+
+.Minting_Mint{
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Minting_Img_div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(255, 145, 0);;
+    width : 240px;
+    height: 60vh;
+}
+.Minting_Img{
+    border: 2px solid black;
+    
+}
+
+.Minting_Img_Input{
+    border-radius: 5px;
+    border: 3px solid rgb(8, 129, 160);
+    margin-top: 1px;
+}
+
+.Minting_Img_Text{
+    font-size:x-small;
+    color : red;
+}
+
+.Minting_Img_Upload_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Minting_Download_Btn,.Minting_List_Btn,.Minting_Img_Button{
+    height: 3vh;
+    border: 3px solid rgb(8, 129, 160);
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-top:  5px;
+    margin-bottom: 5px;
+}
+.Minting_Download_Btn:hover,.Minting_List_Btn:hover,.Minting_Img_Button:hover{
+    background-color: rgb(8, 129, 160);
+    color : white;
+}
+.Minting_Img_Upload{
+    background-color: aquamarine;
+    width: 220px;
+    border: 1px solid black;
+}
+
+.Minting_searchbar{
+    height: 3vh;
+    border: 3px solid rgb(8, 129, 160);
+    border-radius: 10px;
+    background-color: white;
+}
+.Minting_Card{
+    width: 350px;
+    padding: 20px;
+    border: 2px solid rgb(255, 145, 0);
+    margin-left: 65px;
+    margin-bottom: 50px;
+    float : left;
+}

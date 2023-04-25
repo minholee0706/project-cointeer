@@ -1,0 +1,62 @@
+.Profile_All{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(8, 129, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Profile_Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 900;
+    margin-left: 50px;
+}
+.Progile_Gragh_Alert,.Profile_Donate,.Profile_DonateList{
+    font-size: 1.5em;
+    font-weight: 700;
+    color : white;
+}
+.Profile_UserInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items : center;
+    width : 30%;
+    margin-left: 20%;
+}
+.Profile_UserImage{
+    width : 50px;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.Profile_UserName{
+    display: inline;
+}
+.Profile_UserNickName{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.Profile_logout{
+    margin-left: 30px;
+    font-size: 1.2em;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.Link_Home,.Link_Check_Coin,.Link_Donate,.Link_DonateList{
+    text-decoration: none;
+    color : white;
+}
+.Link_Home:hover, .Link_Check_Coin:hover, .Link_Donate:hover,.Link_DonateList:hover{
+    color : black;
+    transition : 0.4s;
+    scale : 1.1;
+}
+.Link_Home:not(:hover),.Link_Check_Coin:not(:hover), .Link_Donate:not(:hover),.Link_DonateList:not(:hover){
+    transition: 0.4s ease-out;
+}
